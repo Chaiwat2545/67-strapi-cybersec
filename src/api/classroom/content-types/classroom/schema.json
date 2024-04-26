@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "classrooms",
+  "info": {
+    "singularName": "classroom",
+    "pluralName": "classrooms",
+    "displayName": "Classroom"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TeacherID": {
+      "type": "string"
+    },
+    "RoomID": {
+      "type": "string"
+    },
+    "SubjectID": {
+      "type": "string"
+    },
+    "ClassroomID": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "Student"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "StudentName": {
+      "type": "string"
+    },
+    "StudentID": {
+      "type": "string"
+    },
+    "StudentEmail": {
+      "type": "email"
+    },
+    "StudentBOD": {
+      "type": "date"
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ]
+    },
+    "course": {
+      "type": "enumeration",
+      "enum": [
+        "standard",
+        "gifted",
+        "EP"
+      ]
+    }
+  }
+}
